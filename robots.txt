@@ -1,0 +1,5 @@
+# robots.txt file for https://www.cristea13.ro
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://www.cristea13.ro/sitemap.xml
