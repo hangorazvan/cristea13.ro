@@ -6,3 +6,5 @@ Intelligent clean code, responsive design, creative graphics art with high class
 Download from SoundCloud in 96kHz 24bit 5.1 Surround FLAC Lossless format, Blu-ray BD5 or AVCHD 2.0 Pure Audio and DVD-Audio/Video ISO images. I hope you will have a nice and fun audition!
 
 https://cristea13.ro
+
+w00.jpg
