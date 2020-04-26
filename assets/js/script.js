@@ -85,11 +85,18 @@ $(window).on('load', function() {
 		$('.filter4').filter('.' + value).show('1000');
 	});
 
+	$(".filterE").click(function() {
+		var value = $(this).attr('data-filter');
+
+		$(".filter5").not('.' + value).hide('1000');
+		$('.filter5').filter('.' + value).show('1000');
+	});
+
 	if ($(window).width() > 768) {
 		$('.hyde').hide();
 
 	} else {
-		$('.filter1, .filter2, .filter3, .filter4').hide();
+		$('.filter1, .filter2, .filter3, .filter4, .filter5').hide();
 	}
 });
 
