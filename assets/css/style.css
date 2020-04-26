@@ -177,6 +177,10 @@ a, a:hover, .btn:hover, .btn:active, .btn:focus, .btn:visited {
 	background: #000000 linear-gradient(180deg, #444444, #000000) repeat-x !important;
 }
 
+.bg-gradient-gray {
+	background: #a5abb0 linear-gradient(180deg, #a9adb0, #8a8e91) repeat-x !important;
+}
+
 .bg-dark {
 	background-color: #202020 !important;
 }
