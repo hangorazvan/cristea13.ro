@@ -1,6 +1,6 @@
 /*!
 Copyright (C) 2019, Razvan Horia Cristea. All Rights Reserved.
-Handmade Dynamic HTML 5, CSS 3, jQuery, Bootstrap 4, Pixel Perfect!
+Handmade Dynamic HTML 5, CSS 3, jQuery 3.5, Bootstrap 4.5, Pixel Perfect!
 PURE AUDIO High Resolution 24bit 192/96kHz Lossless 5.1 Surround Sound
 */
 
@@ -14,7 +14,7 @@ $(window).on('resize scroll mousemove', function() {
 		$(".navbar, .dropdown-menu").removeClass("bg-black");
 		$(".navbar").addClass("pt-md-4");
 	}
-
+/*
 	if (!isMobile()) {
 		$('.animate').each(function (i) {
 			var objectTop = $(this).offset().top - $(this).outerHeight();
@@ -29,7 +29,7 @@ $(window).on('resize scroll mousemove', function() {
 				$(this).addClass('hidden');
 			}
 		});
-	}
+	} */
 });
 
 $(window).on('load', function() {
@@ -47,7 +47,7 @@ $(window).on('load', function() {
 		}
 
 		if ($(window).width() > 1024) {
-//			$(".parallax").parallax();	- influent motion!
+			$(".parallax").parallax(); //	- influent motion!
 			$(".parallax").addClass("s00");
 
 		} else {
@@ -247,13 +247,13 @@ if (!isMobile()) {
 	var setDirection = {
 		bgVertical: function (elem, bgOffset) {
 			return elem.css({
-				'background-position': 'center ' + -bgOffset + 'px'
+				'background-position': 'center ' + bgOffset + 'px'
 			});
 		},
 
 		bgHorizontal: function (elem, bgOffset) {
 			return elem.css({
-				'background-position': -bgOffset + 'px' + ' center'
+				'background-position': bgOffset + 'px' + ' center'
 			});
 		},
 
@@ -338,12 +338,12 @@ if (!isMobile()) {
 		var windowHeight = $(window).height();
 		var documentHeight = $(document).height();
 		var options = $.extend({
-			factor: 0.5,
-			factorXs: 0,
-			factorSm: 0,
-			factorMd: 0.3,
-			factorLg: 0.4,
-			factorXl: 0.5,
+			factor: 0.1,
+			factorXs: 0.1,
+			factorSm: 0.1,
+			factorMd: 0.1,
+			factorLg: 0.1,
+			factorXl: 0.1,
 			type: 'background',
 			direction: 'vertical'
 		}, options);
