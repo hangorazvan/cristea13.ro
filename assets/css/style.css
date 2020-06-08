@@ -45,7 +45,7 @@ html, body {
 	html, body {
 		font-family: "SF Pro Display" !important;
 		src: url("../fonts/sf_pro_display_thin.ttf") format("ttf") !important;
-//		font-size: 1.1rem !important;
+/*		font-size: 1.1rem !important; */
 	}
 }
 
@@ -365,7 +365,7 @@ a, a:hover, .btn:hover, .btn:active, .btn:focus, .btn:visited {
 
 @media screen and (min-width: 768px) {
 	.dropdown:hover .dropdown-menu {
-//		display: block;
+/*		display: block; */
 	}
 }
 
