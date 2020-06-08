@@ -3,7 +3,7 @@ Personal Web Site
 
 <img src=https://github.com/hangorazvan/cristea13.ro/blob/master/w00.jpg>
 
-This is my PURE AUDIO webpage! Ultimate HTML 5, CSS 3, jQuery 3.5 library, Bootstrap 4.5 framework, Impresive overlay Parallax, Inertial Momentum Scroll, Animate 3 and Font Awesome 5 Pro. 
+This is my PURE AUDIO webpage! Ultimate HTML 5, CSS 3, jQuery 3.5 library, Bootstrap 4.5 framework, Impresive overlay Parallax, (Inertial Momentum Scroll, Animate 3) and Font Awesome 5 Pro. 
 
 Intelligent clean code, responsive design, creative graphics art with high class concept and attention to visual details. Pure Sound, Pure Pixel Perfect, Pure Breathtaking! 
 
