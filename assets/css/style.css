@@ -2,7 +2,6 @@
 Copyright (C) 2019, Razvan Horia Cristea. All Rights Reserved.
 Handmade Dynamic HTML 5, CSS 3, jQuery, Bootstrap 4, Pixel Perfect!
 PURE AUDIO High Resolution 24bit 192/96kHz Lossless 5.1 Surround Sound
-*/
 
 @font-face {
 	font-family: "SF Pro Display";
@@ -17,11 +16,18 @@ PURE AUDIO High Resolution 24bit 192/96kHz Lossless 5.1 Surround Sound
 	font-style: italic;
 	font-weight: 100;
 }
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/v4-shims.min.css");
+@import url("../css/animate.min.css");
 
 html, body {
-	font-family: "SF Pro Display";
+	font-family: "Encode Sans Semi Condensed", sans-serif;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 200;
 	letter-spacing: 0.03rem;
 	font-size: 1.2rem;
 	position: relative;
@@ -301,6 +307,14 @@ a, a:hover, .btn:hover, .btn:active, .btn:focus, .btn:visited {
 	height: 475px;
 }
 
+.card-title {
+	font-weight: 400;
+}
+
+.silver {
+	color: silver;
+}
+
 .title:after {
 	content: "";
 	display: block;
@@ -413,7 +427,7 @@ a, a:hover, .btn:hover, .btn:active, .btn:focus, .btn:visited {
 
 @media screen and (min-width: 1366px) {
 	.container {
-    	max-width: 1200px;
+    	max-width: 1360px;
     }
 }
 
