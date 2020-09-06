@@ -1,28 +1,14 @@
 /*!
-Copyright (C) 2019, Razvan Horia Cristea. All Rights Reserved.
+Copyright (C) 2020, Razvan Horia Cristea. All Rights Reserved.
 Handmade Dynamic HTML 5, CSS 3, jQuery, Bootstrap 4, Pixel Perfect!
 PURE AUDIO High Resolution 24bit 192/96kHz Lossless 5.1 Surround Sound
-
-@font-face {
-	font-family: "SF Pro Display";
-	src: url("../fonts/sf_pro_display_thin.woff") format("woff");
-	font-style: normal;
-	font-weight: 100;
-}
-
-@font-face {
-	font-family: "SF Pro Display";
-	src: url("../fonts/sf_pro_display_thin_italic.woff") format("woff");
-	font-style: italic;
-	font-weight: 100;
-}
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/v4-shims.min.css");
-@import url("../css/animate.min.css");
+@import url("/assets/css/animate.min.css");
 
 html, body {
 	font-family: "Encode Sans Semi Condensed", sans-serif;
@@ -49,8 +35,7 @@ html, body {
 
 @media screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
 	html, body {
-		font-family: "SF Pro Display" !important;
-		src: url("../fonts/sf_pro_display_thin.ttf") format("ttf") !important;
+		font-family: "Encode Sans Semi Condensed", sans-serif;
 /*		font-size: 1.1rem !important; */
 	}
 }
@@ -65,7 +50,7 @@ a, a:hover, .btn:hover, .btn:active, .btn:focus, .btn:visited {
 	height: 100%;
 	z-index: 9999;
 	display: block;
-	background: black url('../img/loading.gif') no-repeat center;
+	background: black url('/assets/img/loading.gif') no-repeat center;
 }
 
 .aa .active:after {
@@ -188,107 +173,107 @@ a, a:hover, .btn:hover, .btn:active, .btn:focus, .btn:visited {
 }
 
 .bw1  {
-	background-image: url("../img/bw1.jpg");
+	background-image: url("/assets/img/bw1.jpg");
 }
 
 .bw2  {
-	background-image: url("../img/bw2.jpg");
+	background-image: url("/assets/img/bw2.jpg");
 }
 
 .s01  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg01.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg01.jpg");
 }
 
 .s02  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg02.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg02.jpg");
 }
 
 .s03  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg03.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg03.jpg");
 }
 
 .s04  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg04.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg04.jpg");
 }
 
 .s05  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg05.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg05.jpg");
 }
 
 .s06  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg06.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg06.jpg");
 }
 
 .s07  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg07.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg07.jpg");
 }
 
 .s08  {
-	background-image: url("../img/slide_bg.png"), url("../img/bg08.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/assets/img/bg08.jpg");
 }
 
 .r01  {
-	background-image: url("../img/slide_bg.png"), url("../../razvan/assets/img/b01.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/razvan/assets/img/b01.jpg");
 }
 
 .r02  {
-	background-image: url("../img/slide_bg.png"), url("../../razvan/assets/img/b02.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/razvan/assets/img/b02.jpg");
 }
 
 .r03  {
-	background-image: url("../img/slide_bg.png"), url("../../razvan/assets/img/b03.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/razvan/assets/img/b03.jpg");
 }
 
 .r04  {
-	background-image: url("../img/slide_bg.png"), url("../../razvan/assets/img/b04.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/razvan/assets/img/b04.jpg");
 }
 
 .r05  {
-	background-image: url("../img/slide_bg.png"), url("../../razvan/assets/img/b05.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/razvan/assets/img/b05.jpg");
 }
 
 .p01  {
-	background-image: url("../img/slide_bg.png"), url("../../petre/assets/img/b01.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/petre/assets/img/b01.jpg");
 }
 
 .p02  {
-	background-image: url("../img/slide_bg.png"), url("../../petre/assets/img/b02.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/petre/assets/img/b02.jpg");
 }
 
 .p03  {
-	background-image: url("../img/slide_bg.png"), url("../../petre/assets/img/b03.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/petre/assets/img/b03.jpg");
 }
 
 .p04  {
-	background-image: url("../img/slide_bg.png"), url("../../petre/assets/img/b04.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/petre/assets/img/b04.jpg");
 }
 
 .p05  {
-	background-image: url("../img/slide_bg.png"), url("../../petre/assets/img/b05.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/petre/assets/img/b05.jpg");
 }
 
 .p06  {
-	background-image: url("../img/slide_bg.png"), url("../../petre/assets/img/b06.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/petre/assets/img/b06.jpg");
 }
 
 .x01  {
-	background-image: url("../img/slide_bg.png"), url("../../paula/assets/img/b01.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/paula/assets/img/b01.jpg");
 }
 
 .x02  {
-	background-image: url("../img/slide_bg.png"), url("../../paula/assets/img/b02.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/paula/assets/img/b02.jpg");
 }
 
 .x03  {
-	background-image: url("../img/slide_bg.png"), url("../../paula/assets/img/b03.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/paula/assets/img/b03.jpg");
 }
 
 .x04  {
-	background-image: url("../img/slide_bg.png"), url("../../paula/assets/img/b04.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/paula/assets/img/b04.jpg");
 }
 
 .x05  {
-	background-image: url("../img/slide_bg.png"), url("../../paula/assets/img/b05.jpg");
+	background-image: url("/assets/img/slide_bg.png"), url("/paula/assets/img/b05.jpg");
 }
 
 .s00  {
