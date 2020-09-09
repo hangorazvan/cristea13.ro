@@ -5,7 +5,7 @@ function LoadScripts(async) {
     var scripts = [];
     var _scripts = [
             "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js",
-            "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js",
             "../assets/js/script.js"
         ];
     if (async) {
