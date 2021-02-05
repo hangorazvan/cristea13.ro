@@ -140,6 +140,10 @@ $(document).ready(function() {
 	});
 });
 
+function show() {
+	$(".hidden_section").toggle(1000,"swing");
+}
+
 function isIE() {
 	return /IEMobile|MSIE|Trident|Edge|Windows phone/i.test(navigator.userAgent);
 }
