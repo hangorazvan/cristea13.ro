@@ -28,7 +28,8 @@ html, body {
 	}
 }
 
-::-webkit-scrollbar { 
+::-webkit-scrollbar,
+.hidden_section { 
 	display: none; 
 }
 
