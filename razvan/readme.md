@@ -15,6 +15,6 @@ Enthusiastic art designer motivated by challenging projects, building state-of-t
 
 - Self-educated creative artist, digital music composer, audio / video systems and network engineer.
 
-- Certified technical service for cytotoxic safety cabinets, therapeutic apheresis, cell collection and processing, automated blood collection and processing systems.
+- Certified service engineer for cytotoxic safety cabinets, therapeutic apheresis, cell collection and processing, automated blood collection and processing systems, blood banks ultra low freezers, plasma and whole blood bags refigerators systems.
 
 https://cristea13.ro/razvan
