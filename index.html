@@ -68,8 +68,8 @@
 								<a class="nav-link dropdown-toggle text-white text-nowrap" href="#null" id="dropdown3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
 								<div class="dropdown-menu aa bg-gray" aria-labelledby="dropdown3">
 									<a class="dropdown-item text-white bg-transparent" href="#itunes">Mastered for itunes</a>
-									<a class="dropdown-item text-white bg-transparent" href="#old">Original Albums</a>
-									<a class="dropdown-item text-white bg-transparent" href="#store">Make donation</a>
+									<a class="dropdown-item text-white bg-transparent hidden_section" href="#old">Original Albums</a>
+									<a class="dropdown-item text-white bg-transparent hidden_section" href="#store">Make donation</a>
 									<a class="dropdown-item text-white bg-transparent" href="#footer">Web Cluster</a>
 								</div>
 							</li>
@@ -710,10 +710,11 @@
 							</p>
 						</div>
 					</div>
+					<a href=#null onclick="javascript:show();">[+]</a>
 				</div>
 			</section>
 
-			<section class="container text-center py-5" id="old">
+			<section class="container text-center py-5 hidden_section" id="old">
 				<div class="row">
 					<div class="col pt-3">
 						<h1 class="dst title tshadow animate">Original Albums</h1>
@@ -772,7 +773,7 @@
 				</div>
 			</section>
 
-			<section class="container-fluid text-center text-white py-4 s05 parallax bg-dark" id="store">
+			<section class="container-fluid text-center text-white py-4 s05 parallax bg-dark hidden_section" id="store">
 				<div class="mx-auto swide">
 					<div class="row">
 						<div class="col pt-4">
